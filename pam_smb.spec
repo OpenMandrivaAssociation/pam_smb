@@ -1,6 +1,6 @@
 %define name	pam_smb
 %define version	1.1.7
-%define release	1mdk
+%define release	%mkrel 1
 
 Summary:	SMB Pluggable Authentication Module
 Name:		%{name}
