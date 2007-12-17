@@ -10,7 +10,6 @@ Source0:	ftp://ftp.samba.org/pub/samba/pam_smb/pam_smb-%{version}.tar.bz2
 URL:		http://www.csn.ul.ie/~airlied/pam_smb/
 License:	GPL
 Group:		System/Libraries
-BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	pam-devel
 Requires:	pam
 
