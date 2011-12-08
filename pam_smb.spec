@@ -33,7 +33,7 @@ install -m 644 pam_smb.conf.example %{buildroot}%{_sysconfdir}/pam_smb.conf
 
 %clean
 [ -n "%{buildroot}" -a "%{buildroot}" != / ] && rm -rf %{buildroot}
-rm -rf $RPM_BUILD_DIR/%{name}
+rm -rf %{_builddir}/%{name}
 
 %files
 %defattr(-,root,root)
